@@ -1,5 +1,5 @@
-# php的下载与开发工具的安装使用
-本章我们主要讲解php应该怎么下载,主流开发工具
+# php的下载与开发工具的安装破解
+本章我们主要讲解php这个应用应该怎么下载,主流的开发工具
 
 ### php安装
 #### 1、在PHP下载页面下载最新安装包 https://windows.php.net/download
@@ -32,7 +32,7 @@ php下载就告一段落
 #### 1.打开PHPstorm到下面的界面:
 ![images](../images/0103_logos.png)
 
-#### 2.这里我们来点击activation code
+#### 2.这里我们来点击Activation code
 ![images](../images/0103_php.png)
 
 #### 3. 复制粘贴如下激活码，点击OK（目前有效期到2020年9月份，本激活码会不断更新）
@@ -60,18 +60,3 @@ UMtXVKQzChLNPn/72W0k+oI056tgiwuG7M49LXp4zQVlQnFmWU1wwGvVhq5R63Rpjx1zjGUhcXgayu7+
 HwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+KwOJ7WnuTCUq1meE6GkKc4D/cXmgpOyW/1SmBz3XjVIi/zprZ0zf3qH5mkphtg6ksjKgKjmx1cXfZAAX6wcDBNaCL+Ortep1Dh8xDUbqbBVNBL4jbiL3i3xsfNiyJgaZ5sX7i8tmStEpLbPwvHcByuf59qJhV/bZOl8KqJBETCDJcY6O2aqhTUy+9x93ThKs1GKrRPePrWPluud7ttlgtRveit/pcBrnQcXOl1rHq7ByB8CFAxNotRUYL9IF5n3wJOgkPojMy6jetQA5Ogc8Sm7RG6vg1yow==
 ```
 这样，就激活成功啦！
-
-### 使用工具打开第一个项目
-#### 1、打开编辑器phpStrom
-![images](../images/0103_phpStrom.png)
-
-#### 2、点击左上角的File下面有一个open打开项目
-![images](../images/0103_open.png)
-
-#### 3、在搜索栏中输入你项目存放的地址,我的是:
-![images](../images/0103_praject.png)
-
-#### 4、然后我选第一个也就是我标记的在新窗口中打开
-![images](../images/0103_new.png)
-
-这时我们就打开了第一个php项目
