@@ -10,10 +10,12 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 许多人通过他们自己的经验认识到安装 Apache 服务器是件不容易的事儿。如果您想添加 MySQL、PHP 和 Perl，那就更难了。XAMPP 是一个易于安装且包含 MySQL、PHP 和 Perl 的 Apache 发行版。XAMPP 的确非常容易安装和使用：只需下载，解压缩，启动即可。
  
 
-#### 2.XAMPP的下载地址是：
-https://www.apachefriends.org/zh_cn/index.html
+#### 2.XAMPP的下载：
+百度搜索XMAPP第一行请看下面这张图
 
 ![images](../images/0102_img.png)
+
+点击普通下载
 
 ### 2、安装XMAPP
 #### 1.首先我在桌面创建了一个文件夹XMAPP，然后在XMAPP创建了三个文件夹。
