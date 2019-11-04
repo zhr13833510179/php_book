@@ -39,7 +39,7 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 如果是Apache中的80,443端口被占用
 如果是MySQL中的3306端口被占用
 
-### 3.配置虚拟主机
+### 3、配置虚拟主机
 #### 1.然后我在C:\XMAPP\virtualhost中新建了一个文件==>index.php
 
 ![iamges](../images/0102_pngs.png)
@@ -68,10 +68,15 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 
 效果图：
 ![images](../images/0102_api.png)
-#### 3.修改hosts
-进入C盘==>Windows==>system32==>drivers==>etc==>hosts文件
+#### 3.修改hosts(要以管理员身份运行编辑器)
+进入C盘==>Windows==>system32==>drivers==>etc==>找到hosts这个文件
 
-### 5、测试是否XAMPP成功运行
+把127.0.0.1 jasonjan.com 填写到hosts最后面
+
+127.0.0.1是你网络地址,后面的jasonjan.com是你虚拟主机定义的访问名称
+![images](../images/0102_jasonjan.png)
+
+### 4、测试是否XAMPP成功运行
 #### 1.先打开Apache
 ![images](../images/0102_Apache.png)
 
