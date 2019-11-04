@@ -13,19 +13,22 @@
 php下载就告一段落
 
 ### 开发工具的安装
-#### 1.下载地址：http://www.jetbrains.com/phpstorm/ 根据自己电脑的32or64位下载，下载完后就是这个：
+#### 1.下载地址：http://www.jetbrains.com/phpstorm/然后点击
+![iamges](../images/0103_jpgjpg.png)
+
+#### 2.根据自己电脑的32or64位下载，下载完后就是这个：
 ![images](../images/0103_images.png)
 
-#### 2、双击即可直接安装，点击Next选择安装路径：
+#### 3、双击即可直接安装，点击Next选择安装路径：
 ![images](../images/0103_image.png)
 
-#### 3、在这里根据自己的电脑32位or64位以及自己需要用到的功能选择对应的选项，点击Next，
+#### 4、在这里根据自己的电脑32位or64位以及自己需要用到的功能选择对应的选项，点击Next，
 ![images](../images/0103_imgs.png)
 
-#### 4、程序安装完成后，勾选Run并且点击finish，进入界面选择：
+#### 5、程序安装完成后，勾选Run并且点击finish，进入界面选择：
 ![images](../images/0103_pngs.png)
 
-#### 5、选择自己喜欢的风格，然后下一步进入激活程序：
+#### 6、选择自己喜欢的风格，然后下一步进入激活程序：
 ![images](../images/0103_logo.png)
 
 ### 破解phpStorm
