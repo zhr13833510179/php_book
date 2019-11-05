@@ -1,7 +1,7 @@
-# XMAPP的安装与配置
-本章节我们主要讲解用来搭建模拟服务器的XMAPP一站式服务软件
+# 第03节:XMAPP的安装与配置
+本章节我们主要讲解一站式XAMPP的下载安装与使用,XAMPP的作用:XAMPP是一个功能强大的建站集成软件包,它包含 MySQL、PHP 和 Apache，Apache就是我们本节的重点,为php搭建一个一站式集成开发环境用的
 
-### 1、XMAPP简介
+### 一、XMAPP简介
 #### 1.XAMPP（Apache+MySQL/MariaDB+PHP+Perl）
 
 　  开头的X代表X-OS，代表可以在任何常见操作系统下使用，包括Windows、Mac、Linux，开源平台。
@@ -17,7 +17,7 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 
 点击普通下载
 
-### 2、安装XMAPP
+### 二、安装XMAPP
 #### 1.首先我在桌面创建了一个文件夹XMAPP，然后在XMAPP创建了三个文件夹。
 ![images](../images/0102_png.png)
 #### 2.首先下载好XMAPP，放到一个位置，我放在 D:\XAMPP\package 这个位置的。
@@ -39,7 +39,7 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 如果是Apache中的80,443端口被占用
 如果是MySQL中的3306端口被占用
 
-### 3、配置虚拟主机
+### 三、配置虚拟主机
 #### 1.然后我在C:\XMAPP\virtualhost中新建了一个文件==>index.php
 
 ![iamges](../images/0102_pngs.png)
@@ -76,7 +76,7 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 127.0.0.1是你网络地址,后面的jasonjan.com是你虚拟主机定义的访问名称
 ![images](../images/0102_jasonjan.png)
 
-### 4、测试是否XAMPP成功运行
+### 四、测试是否XAMPP成功运行
 #### 1.先打开Apache
 ![images](../images/0102_Apache.png)
 

@@ -1,8 +1,8 @@
-# php的下载与开发工具的安装破解
-本章我们主要讲解php这个应用应该怎么下载,主流的开发工具
+# 第02节:php的下载与开发工具的安装破解
+本章我们主要来说php的懒人安装和主要开发工具phpStrom的下载安装与破解
 
-### php安装
-#### 1、在PHP下载页面下载最新安装包 https://windows.php.net/download
+### 一、php安装
+#### 1.在PHP下载页面下载最新安装包 https://windows.php.net/download
 
 ![images](../images/0103_img.png)
 
@@ -12,26 +12,26 @@
 
 php下载就告一段落
 
-### 开发工具的安装
+### 二、开发工具的安装
 #### 1.下载地址：http://www.jetbrains.com/phpstorm/然后点击
 ![iamges](../images/0103_jpgjpg.png)
 
 #### 2.根据自己电脑的32or64位下载，下载完后就是这个：
 ![images](../images/0103_images.png)
 
-#### 3、双击即可直接安装，点击Next选择安装路径：
+#### 3.双击即可直接安装，点击Next选择安装路径：
 ![images](../images/0103_image.png)
 
-#### 4、在这里根据自己的电脑32位or64位以及自己需要用到的功能选择对应的选项，点击Next，
+#### 4.在这里根据自己的电脑32位or64位以及自己需要用到的功能选择对应的选项，点击Next，
 ![images](../images/0103_imgs.png)
 
-#### 5、程序安装完成后，勾选Run并且点击finish，进入界面选择：
+#### 5.程序安装完成后，勾选Run并且点击finish，进入界面选择：
 ![images](../images/0103_pngs.png)
 
-#### 6、选择自己喜欢的风格，然后下一步进入激活程序：
+#### 6.选择自己喜欢的风格，然后下一步进入激活程序：
 ![images](../images/0103_logo.png)
 
-### 破解phpStorm
+### 三、破解phpStorm
 #### 1.打开PHPstorm到下面的界面:
 ![images](../images/0103_logos.png)
 
@@ -62,4 +62,4 @@ DVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQAF
 UMtXVKQzChLNPn/72W0k+oI056tgiwuG7M49LXp4zQVlQnFmWU1wwGvVhq5R63Rpjx1zjGUhcXgayu7+9zMUW596Lbomsg8qVve6euqsrFicYkIIuUu4zYPndJwfe0YkS5nY72SHnNdbPhEnN8wcB2Kz+OIG0lih3yz5EqFhld03bGp222ZQCIghCTVL6QBNadGsiN/lWLl4JdR3lJkZzlpFdiHijoVRdWeSWqM4y0t23c92HXKrgppoSV18XMxrWVdoSM3nuM
 HwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+KwOJ7WnuTCUq1meE6GkKc4D/cXmgpOyW/1SmBz3XjVIi/zprZ0zf3qH5mkphtg6ksjKgKjmx1cXfZAAX6wcDBNaCL+Ortep1Dh8xDUbqbBVNBL4jbiL3i3xsfNiyJgaZ5sX7i8tmStEpLbPwvHcByuf59qJhV/bZOl8KqJBETCDJcY6O2aqhTUy+9x93ThKs1GKrRPePrWPluud7ttlgtRveit/pcBrnQcXOl1rHq7ByB8CFAxNotRUYL9IF5n3wJOgkPojMy6jetQA5Ogc8Sm7RG6vg1yow==
 ```
-这样，就激活成功啦！
+这样，我们就激活成功啦！
