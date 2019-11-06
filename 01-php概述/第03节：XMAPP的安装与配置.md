@@ -43,6 +43,8 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 #### 1.然后我在C:\XMAPP\virtualhost中新建了一个文件==>index.php
 
 ![iamges](../images/0102_pngs.png)
+
+
 很简单的一个函数，就当做首页了吧。
 
 #### 2.找到XAMPP的安装目录==>apache==>conf==>extra
