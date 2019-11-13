@@ -69,6 +69,6 @@ HwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+Kw
 点击上面的官网，进入到phpStrom官网首页(过程可能有点缓慢)，点击图一红框里面的按钮下载，下载到指定位置，下载完毕后，点击图二中的文件安装，选择想要安装的路径，然后选择自己用到的功能及自己的电脑是32为还是64位，一直next继续，直到最后安装成功，打开安装好的phpStrom软件，选择风格，个人推荐黑色比较护眼，进入到php破解页面，我们来点击Activation code这个按钮来填写上面的破解码，这样我们这款软件就破解好了
 
 ### 四、作业
-1.了解php版本信息及版本特点
-2.查询有关于php的主流开发软件
-3.学习phpStrom的快捷键及创建一个php文件
+* 1.了解php版本信息及版本特点
+* 2.查询有关于php的主流开发软件
+* 3.学习phpStrom的快捷键及创建一个php文件

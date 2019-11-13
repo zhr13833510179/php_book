@@ -49,5 +49,5 @@ echo是php中常用的输出语句类似于JavaScript里面的console.log输出H
 这样就相当于php没有执行，返回的是一段html的代码
 
 ### 四、作业
-1.课后练习输出HelloWorld时新建一个虚拟主机
-2.熟练运用编写php程序的具体步骤
+* 1.通过新建的一个虚拟主机来运行php代码并输出HelloWorld
+* 2.熟练运用编写php程序的具体步骤
