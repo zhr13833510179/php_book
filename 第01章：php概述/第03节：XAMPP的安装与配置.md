@@ -1,5 +1,5 @@
-# 第03节:XMAPP的安装与配置
-本节我们主要讲解XAMPP软件的下载安装与使用
+# 第03节:XAMPP的安装与配置
+上一节我们提到了php和常用编辑软件的安装，本节我们主要讲解XAMPP软件的下载安装与使用
 
 ### 一、学习目标
 简单了解XAMPP的作用，XAMPP是一个功能强大的建站集成软件包,它包含 MySQL、PHP 和 Apache，Apache就是我们本节的重点,为php搭建一个一站式集成开发环境
@@ -53,9 +53,9 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包，
 
 很简单的一个函数，就当做首页了吧。
 
-#### 2.找到XAMPP的安装目录==>apache==>conf==>extra
+#### 2.找到XAMPP的安装目录path==>apache==>conf==>extra
 
-然后用编辑器打开httpd-vhosts.conf
+然后用phpStrom这个编辑器打开httpd-vhosts.conf
 
 在文件的最下面写如下代码：　
 
@@ -79,6 +79,7 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包，
 
 效果图：
 ![images](../images/0102_api.png)
+创建虚拟主机后需要进入主机的hosts文件下修改本机域名才能进行访问
 #### 3.修改hosts(要以管理员身份运行编辑器)
 进入C盘==>Windows==>system32==>drivers==>etc==>找到hosts这个文件
 

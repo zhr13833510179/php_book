@@ -1,8 +1,8 @@
 # 第11节:Exception
-本节我们来学习异常处理的语法及实例解释
+上一节我们介绍了php当中几种不同错误处理方式的定义及使用方法，本节我们来学习异常处理的语法及实例解释
 
 ### 一、学习目标
-异常是什么，异常的使用方法，异常的实战案例及案例解析
+异常的定义，以及异常的使用方法，与异常五种不同处理方式，和异常的实战案例及案例解析的效果
 
 ### 二、PHP 异常处理
 异常（Exception）用于在指定的错误发生时改变脚本的正常流程。
@@ -28,7 +28,7 @@ PHP 5 提供了一种新的面向对象的错误处理方法。
 #### 2.异常的基本使用
 当异常被抛出时，其后的代码不会继续执行，PHP 会尝试查找匹配的 "catch" 代码块。
 
-如果异常没有被捕获，而且又没用使用 set_exception_handler() 作相应的处理的话，那么将发生一个严重的错误（致命错误），并且输出 "Uncaught Exception" （未捕获异常）的错误消息。
+如果异常没有被捕获，而且又没用使用 set_exception_handler() 这个函数作相应的处理的话，那么将发生一个严重的错误（致命错误），并且输出 "Uncaught Exception" （未捕获异常）的错误消息。
 
 让我们尝试抛出一个异常，同时不去捕获它：
 
@@ -51,10 +51,11 @@ checkNum(2);
 ?>
 
 //输出结果:Fatal error: Uncaught Exception: Value must be 1 or below in 
-//C:\Users\Administrator\Desktop\XAMPP\03_demo\cainiao\Exciption\Exception.php:8 Stack trace: #0 
-//C:\Users\Administrator\Desktop\XAMPP\03_demo\cainiao\Exciption\Exception.php(14): checkNum(2) #1 {main} thrown in 
-//C:\Users\Administrator\Desktop\XAMPP\03_demo\cainiao\Exciption\Exception.php on line 8
+//C:\Users\Administrator\Desktop\XAMPP\03_demo\Exciption\Exception.php:8 Stack trace: #0 
+//C:\Users\Administrator\Desktop\XAMPP\03_demo\Exciption\Exception.php(14): checkNum(2) #1 {main} thrown in 
+//C:\Users\Administrator\Desktop\XAMPP\03_demoExciption\Exception.php on line 8
 ```
+上面代码会输出未捕获的异常Uncaught Exception:"Value must be 1 or below"
 
 #### 3.Try、throw 和 catch
 要避免上面实例中出现的错误，我们需要创建适当的代码来处理异常。
@@ -64,7 +65,7 @@ checkNum(2);
 * Throw - 里规定如何触发异常。每一个 "throw" 必须对应至少一个 "catch"。
 * Catch - "catch" 代码块会捕获异常，并创建一个包含异常信息的对象。
 
-让我们触发一个异常：
+让我们触发一个异常
 
 实例如下所示:
 
@@ -222,7 +223,7 @@ catch(Exception $e)
 #### 9.重新抛出异常
 有时，当异常被抛出时，您也许希望以不同于标准的方式对它进行处理。可以在一个 "catch" 代码块中再次抛出异常。
 
-脚本应该对用户隐藏系统错误。对程序员来说，系统错误也许很重要，但是用户对它们并不感兴趣。为了让用户更容易使用，您可以再次抛出带有对用户比较友好的消息的异常：
+脚本应该对用户隐藏系统错误。对程序员来说，系统错误也许很重要，但是用户对它们并不感兴趣。为了让用户更容易使用，您可以再次抛出带有对用户比较友好的消息的异常
 
 实例代码如下：
 
@@ -304,4 +305,9 @@ throw new Exception('Uncaught Exception occurred');
 * 3、使用多个 catch 代码块可以捕获不同种类的异常。
 * 4、可以在 try 代码块内的 catch 代码块中抛出（再次抛出）异常。
 
-提示：如果抛出了异常，就必须捕获它。
+通过本节的学习我们涉及到了php当中异常的定义方法，以及不同的错误处理方式，注意：如果抛出了异常就必须要捕获他，不捕获就会报出"Uncaught Exception" （未捕获异常）的错误消息
+
+### 三、作业
+* 1.理解异常的基本定义以及不同处理方法的使用
+* 2.手动书写与异常知识点相关的案例并分析案例有关的解释，加深对此知识点的印象
+* 3.熟练运用本节相关知识点，可以独自写出与本节相关的案例
