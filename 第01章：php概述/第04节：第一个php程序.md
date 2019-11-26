@@ -11,7 +11,7 @@
 #### 2.打开了xampp后，看到这个Apache，点击Start
 ![images](../images/0104_png.png)
 
-只运行Apache这款软件就可以了，其他软件我们以后再去做系统的了解
+只运行Apache这款软件就可以了，其他内容我们以后再去做系统的了解
 
 #### 3.等到这个按钮变成了绿色了后，就证明我们已经开启了php的环境
 ![images](../images/0104_imgs.png)
@@ -28,15 +28,16 @@
 #### 6.用编程工具打开刚才创建的index.php文件，打开php文件后输入以下代码保存就好了
 ![images](../images/0104_logo.png)
 
-echo是php中常用的输出语句类似于JavaScript里面的console.log输出HelloWorld
+echo是php中常用的输出语句类似于JavaScript里面的console.log，输出HelloWorld
 
 #### 7.开游览器输入：localhost/index.php这就是我们刚才做的项目了
+
 ![images](../images/0104_logos.png)
 
 ### 三、第一个HelloWorld步骤
 * 1.通过XAMPP里面的Apache搭建一个集成服务器
 * 2.通过phpStrom编辑软件来编写一个后缀名为.php的一个php文件
-* 3.通过Apache搭建的这个服务器来为php进行解析，到浏览器执行php里面的语句(提示:如果不通过服务器来解析的话，浏览器收到的数据会是php解析出来的源码，源码是不会执行php语句的，会原封不动的显示出来)
+* 3.通过Apache搭建的这个服务器来为php进行解析，到浏览器执行php开始标签里面的语句(提示:如果不通过服务器来解析的话，浏览器收到的数据会是php解析出来的源码，源码是不会执行php语句的，会原封不动的显示出来)
 
 实例如下所示：
 
@@ -48,7 +49,9 @@ echo是php中常用的输出语句类似于JavaScript里面的console.log输出H
 
 这样就相当于php没有执行，返回的是一段html的代码
 
+通过本节的学习我们学习了如何运用以前学过的一些相关知识来进行第一个php程序的编写以及通过XAMPP搭建的服务器将php代码进行解析并展示在浏览器的页面上，php开始标签和输出语句将会在下一章中为大家讲解
+
 ### 四、作业
-* 1.通过新建的一个虚拟主机来运行php代码并输出HelloWorld
+* 1.了解php当中的的执行原理和流程
 * 2.熟练运用编写php程序的具体步骤
-* 3.了解php当中的的执行原理和流程
+* 3.通过新配置的一个虚拟主机来运行php代码并输出 "你好 世界！"
